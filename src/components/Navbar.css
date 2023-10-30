@@ -1,0 +1,22 @@
+nav {
+    display: flex; /**aタグを全て横並びにする*/
+    justify-content: center; /**jccと入力*/
+    align-items: flex-end; /**aicと入力*/
+    height: 50px;
+    background-color: #bd7407;
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    color: cadetblue;
+}
+
+nav a svg {
+    margin-right: 5px;
+}
